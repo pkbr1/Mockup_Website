@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Website</title>
+        <style>
+            *{
+                margin: 0;
+            }
+            .header{
+                width: 80%;
+                height: 40px;
+                background-color: teal;
+                padding: 30px 10%;
+                display: flex;
+                justify-content: space-between;
+
+            }
+            .header>.logo>h1{
+                color: white;
+                font-family: cursive;
+                text-shadow: 4px 2px 4px black;
+                font-size: 38px;
+            }
+            .header>.links{
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .header>.links>a{
+                color: white;
+                text-decoration: none;
+                font-size: 22px;
+                font-family: sans-serif;
+            }
+            .banner{
+                width: 80%;
+                height: 500px;
+                padding: 30px 10%; 
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .photo, .text{
+                width: 50%;
+                height: 300px;
+            }
+            .text> h1{
+                font-size: 38px;
+                font-family: sans-serif;
+            }
+            .text>p{
+                font-size: 19px;
+                line-height: 30px;
+                width: 90%;
+                text-align: justify;
+                margin: 20px 0px;
+            }
+            .btn{
+                background-color: teal;
+                color: white;
+                padding: 15px 80px;
+                text-decoration: none;
+                border-radius: 20px;
+                font-size: 30px;
+                font-family: sans-serif;
+                margin-top: 20px;
+
+            }
+            .container{
+                display: flex;
+                justify-content: space-around;
+            }
+            .container>div{
+                /* background-color: teal; */
+                width: 350px;
+                height: auto;
+                border-radius: 10px;
+                border: 1px solid teal;
+                padding: 20px;
+                box-sizing: border-box;
+                margin-bottom: 20px;
+            }
+            .container>div>h2{
+                font-size: 35px;
+                font-family: sans-serif;
+                margin-bottom: 10px;
+                color: teal;
+                border-bottom: 1px solid teal;
+            }
+            .footer{
+                display: flex;
+                width: 80%;
+                height: 500px;
+                padding: 50px 10%;
+                background-color: black;
+                color: white;
+            }
+            .footer>div{
+                width: 33%;
+            }
+            ul>li{
+                margin-bottom: 10px;
+                color: white;
+                text-decoration: none;
+            }
+            .col3{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                <h1>Zapyar</h1>
+            </div>
+            <div class="links">
+                <a href="/index.html">Home</a>
+                <a href="/about.html">About</a>
+                <a href="">Contact</a>
+                <a href="">Services</a>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="text">
+                <h1>Welcome to my website</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nihil fuga unde eligendi, aspernatur voluptates ex quisquam id iste quidem incidunt saepe deserunt modi. Nihil iusto aliquam illo ipsa aut?</p>
+                <a href="" class="btn">Start</a>
+            </div>
+            <div class="photo">
+                <img src="cover.jpg" width="100%" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <div class="box1">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur sit, distinctio porro ipsam aliquam rerum sed non amet, quia aliquid autem vitae similique eligendi, nam velit assumenda? Cumque, ullam magnam.</p>
+            </div>
+            <div class="box2">
+                <h2>Our Mission</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur sit, distinctio porro ipsam aliquam rerum sed non amet, quia aliquid autem vitae similique eligendi, nam velit assumenda? Cumque, ullam magnam.</p>
+            </div>
+            <div class="box3">
+                <h2>Our Serivces</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur sit, distinctio porro ipsam aliquam rerum sed non amet, quia aliquid autem vitae similique eligendi, nam velit assumenda? Cumque, ullam magnam.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="col1">
+                <ul type="none">
+                    <li>item1</li>
+                    <li>item2</li>
+                    <li>item3</li>
+                    <li>item4</li>
+                    <li>item5</li>
+                </ul>
+            </div>
+            <div class="col2">
+                <ul type="none">
+                    <li>item1</li>
+                    <li>item2</li>
+                    <li>item3</li>
+                    <li>item4</li>
+                    <li>item5</li>
+                </ul>
+            </div>
+            <div class="col3">
+                <h3>Contact us</h3>
+                <p>Madhubani Purnia Bihar 854301</p>
+                <p>asdf@example.com</p>
+                <p>1234556789</p>
+            </div>
+        </div>
+    </body>
+</html>
